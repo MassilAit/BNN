@@ -125,3 +125,4 @@ def plot_layer_data(data, layers, data_type='value', title="Model Data Over Epoc
             plt.legend()
             plt.grid(True)
             plt.show()
+

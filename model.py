@@ -34,7 +34,7 @@ class BinaryLinear(nn.Module):
     def forward(self, x):
         w_bin = binary_sign(self.weight)          # binarise weights
         z = F.linear(x, w_bin, self.bias)
-        return z/self.in_features
+        return z
 
 # ────────────────────────────────────────────────
 # 3.  Binary activation wrapper (sign with STE)
@@ -50,7 +50,7 @@ class BinarizedModel(nn.Module):
     """
     Binarized network that records pre-activations and activations during forward pass.
     """
-    def __init__(self, n_inputs, hidden_layers):
+    def __init__(self, n_inputs, hidden_layers, bias = True):
         super().__init__()
 
         self.model = nn.Sequential()
@@ -61,7 +61,7 @@ class BinarizedModel(nn.Module):
         layer_idx = 0
 
         for h in hidden_layers:
-            linear = BinaryLinear(current_in, h)
+            linear = BinaryLinear(current_in, h, bias = bias)
             act = BinaryActivation()
 
             self.model.add_module(f"linear_{layer_idx}", linear)
@@ -71,7 +71,7 @@ class BinarizedModel(nn.Module):
             layer_idx += 1
 
         # Output layer
-        self.model.add_module(f"linear_{layer_idx}", BinaryLinear(current_in, 1))
+        self.model.add_module(f"linear_{layer_idx}", BinaryLinear(current_in, 1, bias=bias))
         self.model.add_module(f"act_{layer_idx}", BinaryActivation())
 
         self.register_hooks()

@@ -79,15 +79,8 @@ def train_model(model, train_loader, optimizer, num_epochs, criterion, verbose=F
         model.train()
         running_loss = 0.0
 
-        linear_0=[]
-        linear_1=[]
         for inputs, labels in train_loader:
             outputs = model(inputs)
-
-            dic = model.get_activations()
-
-            linear_0.append(dic["linear_0"])
-            linear_1.append(dic["linear_1"])
 
             loss = criterion(outputs, labels)
 
@@ -107,8 +100,6 @@ def train_model(model, train_loader, optimizer, num_epochs, criterion, verbose=F
         average_loss = running_loss / len(train_loader)
         if verbose:
             if epoch%100==0 : 
-                print(linear_0)
-                print(linear_1)
                 print(f'Epoch [{epoch + 1}/{num_epochs}], Loss: {average_loss:.4f}')
 
     return average_loss, params, grads
