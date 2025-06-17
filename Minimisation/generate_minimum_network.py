@@ -143,19 +143,24 @@ def find_minimal_configuration(n_input: int, target_value: str, max_factor: int 
     results = []
 
     # Try single hidden layer
-    for width in range(1, (1 << n_input) + 1):
+    for width in range(2, (1 << n_input) + 1):
         if try_multiple_trainings(n_input, [width], data_loader, dataset, target_value):
             results.append(["single", width])
             break
 
     # Try two hidden layers (bounded total neurons)
-    for total in range(3, (1 << n_input) + 1):
-        for h1 in range(2, total):
+    for total in range(4, (1 << n_input) + 1):
+        valid_splits=[]
+        for h1 in range(2, total-1):
             h2 = total - h1
-            if try_multiple_trainings(n_input, [h1, h2], data_loader, dataset, target_value):
-                results.append(["multi", [h1, h2]])
-                return results
-
+            if (h2<=h1):
+                if try_multiple_trainings(n_input, [h1, h2], data_loader, dataset, target_value):
+                    valid_splits.append([h1,h2])
+    
+        if valid_splits :
+            results.append(["multi", valid_splits])
+            return results
+    
     return results if results else ["fail", None]
 
 
@@ -194,7 +199,7 @@ def analyze_all_canonical_forms(n_input: int, canonical_values: list):
                 if entry[0] == "single":
                     row["Single_hidden"] = str(entry[1])
                 elif entry[0] == "multi":
-                    row["Multiple"] = "-".join(map(str, entry[1]))
+                    row["Multiple"] = str(entry[1])
 
         summary.append(row)
 
@@ -222,6 +227,8 @@ def analyze_npn_json(json_path: str = "npn_classes_brute.json"):
 
     for n_str, canonical_values in npn_classes.items():
         n_input = int(n_str)
+        if n_input ==4 :
+            break
         print(f"\n=== Analyzing all functions for {n_input} inputs ===")
         analyze_all_canonical_forms(n_input, canonical_values)
 

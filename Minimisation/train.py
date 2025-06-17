@@ -56,7 +56,7 @@ class EarlyStopping:
 
 
 
-def train_model(model, train_loader, optimizer, num_epochs, criterion, verbose=False, record_params=False, record_gradients=False, early_stop=False):
+def train_model(model, train_loader, optimizer, num_epochs, criterion, verbose=False, record_params=False, record_gradients=False, early_stop=False, delta=0.001, patience=500):
     """
     Train the model, with options to record parameter values and gradients at each epoch.
 
@@ -75,7 +75,7 @@ def train_model(model, train_loader, optimizer, num_epochs, criterion, verbose=F
     params = []
     grads = []
     average_loss = 0
-    early_stopping = EarlyStopping()
+    early_stopping = EarlyStopping(patience=patience, delta=delta)
 
     for epoch in range(num_epochs):
         model.train()
