@@ -25,14 +25,14 @@ from train   import train_model
 @dataclass
 class Hyper:
     """Bundle of all tunable parameters."""
-    lr:            float  = 0.005       # Adam learning rate
+    lr:            float  = 0.002       # Adam learning rate
     delta:         float  = 0.01       # Early-stopping min-Δ
     patience:      int    = 100         # Early-stopping patience
     attempts:      int    = 10          # Re-trainings per architecture
     epochs:        int    = 10_000      # Max epochs per training
     batch_size:    int | None = None    # If None → (2**n_input)//4
     model_type:    str    = "continuous"  # 'continuous' | 'binarized'
-    success_ratio: float  = 0.70        # Fraction of runs that must be perfect
+    success_ratio: float  = 0.30        # Fraction of runs that must be perfect
 
     def to_path_suffix(self) -> str:
         """Generate a filesystem-safe string encoding the run's hyperparameters."""
@@ -163,12 +163,12 @@ def find_architecture_stats(
             break
 
     # 2-hidden (total neurons limited)
-    for total in range(4, max_factor * n_input + 1):
-        for h1 in range(2, total - 1):
-            h2 = total - h1
-            if h2 <= h1:
-                if sum(a == 100.0 for a in record([h1, h2])) / hp.attempts >= hp.success_ratio:
-                    return stats
+    #for total in range(4, max_factor * n_input + 1):
+    #    for h1 in range(2, total - 1):
+    #        h2 = total - h1
+    #        if h2 <= h1:
+    #            if sum(a == 100.0 for a in record([h1, h2])) / hp.attempts >= hp.success_ratio:
+    #                return stats
     return stats  # may be empty
 
 # ─────────────────────────────────────────────────────────────────────────────
