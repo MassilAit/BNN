@@ -1,5 +1,15 @@
-from itertools import product
+"""
+Verify that the expressions stored in `SOP/POS` and `inner_representation`
+columns reproduce the integer in `canonical`.
 
+• Hard-codes the CSV path – edit CSV_FILE below if needed.
+• Prints 'OK' when everything matches, else lists mismatches.
+"""
+
+CSV_FILE = "Result/4_continuous.csv"          # ← change if your file lives elsewhere
+# ---------------------------------------------------------------------
+from itertools import product
+import pandas as pd
 
 # ────────────────────────────── PARSER ────────────────────────────────
 def _parse(expr: str):
@@ -7,7 +17,6 @@ def _parse(expr: str):
     i = 0
 
     def peek(): return expr[i] if i < len(expr) else None
-
     def take(expected=None):
         nonlocal i
         if expected and peek() != expected:
@@ -38,7 +47,7 @@ def _parse(expr: str):
             node = ("not", node)
         return node
 
-    def product():
+    def product_():
         nodes = [factor()]
         while True:
             ch = peek()
@@ -48,19 +57,19 @@ def _parse(expr: str):
         return nodes[0] if len(nodes) == 1 else ("and", nodes)
 
     def summation():
-        node = product()
+        node = product_()
         while peek() == "+":
             take("+")
-            node = ("or", node, product())
+            node = ("or", node, product_())
         return node
 
     tree = summation()
     if i != len(expr):
-        raise ValueError(f"trailing characters: {expr[i:]}")
+        raise ValueError(f"trailing characters: {expr[i:]}")   # noqa: TRY003
+    
     return tree
 
 
-# ───────────────── VARIABLE GATHERING ────────────────────────────────
 def _collect_vars(ast, acc=None):
     if acc is None:
         acc = set()
@@ -78,7 +87,6 @@ def _collect_vars(ast, acc=None):
     return acc
 
 
-# ─────────────────────────── EVALUATOR ───────────────────────────────
 def _eval(ast, env):
     typ = ast[0]
     if typ == "var":
@@ -94,13 +102,8 @@ def _eval(ast, env):
 
 # ─────────────────────────── PUBLIC API ──────────────────────────────
 def truth_table(expr: str, n_inputs: int | None = None):
-    """
-    Build a truth table for *expr*.
-    If n_inputs is bigger than the variables used, extra inputs are ignored
-    by the function but still appear in the key tuples.
-    """
     ast = _parse(expr)
-    all_names = sorted(_collect_vars(ast))        # real vars
+    all_names = sorted(_collect_vars(ast))
 
     if n_inputs is not None and n_inputs < len(all_names):
         raise ValueError(
@@ -112,23 +115,49 @@ def truth_table(expr: str, n_inputs: int | None = None):
 
     table = {}
     for bits in product([0, 1], repeat=width):
-        env = {v: bool(b) for v, b in zip(all_names, bits)}   # map first bits
+        env = {v: bool(b) for v, b in zip(all_names, bits)}
         table[bits] = int(_eval(ast, env))
-    return all_names, table
+    return table
+
 
 def bits_to_int(bits: list[int]) -> int:
-    """Convert a list of 0/1 bits (index 0 = LSB) to its integer value."""
+    """Convert LSB-first list of 0/1 bits to integer."""
     return sum(bit << i for i, bit in enumerate(bits))
 
-# ───────────────────────────── DEMO ───────────────────────────────────
+# ───────────────────────────── VERIFIER ──────────────────────────────
+def check_csv(path: str) -> None:
+    df = pd.read_csv(path)
+    cols_to_check = [c for c in ("SOP/POS", "inner_representation") if c in df.columns]
+
+    problems: list[tuple[int, str, str, int | None]] = []  # canonical, col, expr, got
+
+    for _, row in df.iterrows():
+        canonical = int(row["canonical"])
+        n_input   = int(row["n_input"])
+
+        for col in cols_to_check:
+            expr = row[col]
+            if not isinstance(expr, str) or not expr.strip():
+                continue  # empty → ignore
+            try:
+                tt = truth_table(expr, n_inputs=n_input)
+                outputs = [tt[b] for b in product([0, 1], repeat=n_input)]
+                got = bits_to_int(outputs)
+            except Exception as e:
+                got  = None
+                expr = f"{expr}  (ERROR: {e})"
+
+            if got != canonical:
+                problems.append((canonical, col, expr, got))
+
+    if not problems:
+        print("OK")
+    else:
+        print("MISMATCHES:")
+        for can, col, expr, got in problems:
+            print(f"  canonical {can} | column '{col}' | got {got}\n"
+                  f"    expr: {expr}\n")
+
+# ─────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
-    expr = "([(A + B)(A + C')(B + C')]' + [(A' + C')(B' + C')(A' + B')]')([(A + B)(A + C')(B + C')]' + [(C')])([(A' + C')(B' + C')(A' + B')]' + [(C')])"
-    vars_order, tt = truth_table(expr, n_inputs=4)
-    print("Variables:", vars_order)
-    l=[]
-    for inp, out in tt.items():
-        l.append(out)
-
-    print(bits_to_int(l))
-
-    
+    check_csv(CSV_FILE)

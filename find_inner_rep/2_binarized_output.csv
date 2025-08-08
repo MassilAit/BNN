@@ -1,0 +1,2 @@
+canonical,seed,min_architecture,lr,batch_size,clip,model_type,attempts,epochs,delta,patience,accuracy,success
+6,0,[2],0.006,8,0.9,binarized,458,10000,0.01,100,100.0,1

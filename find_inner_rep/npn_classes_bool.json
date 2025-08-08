@@ -1,0 +1,3156 @@
+{
+  "1": {
+    "0": {
+      "SOP_terms": "0",
+      "POS_terms": "()",
+      "SOP_cost": [
+        0,
+        0
+      ],
+      "POS_cost": [
+        1,
+        0
+      ],
+      "preferred": "SOP"
+    },
+    "1": {
+      "SOP_terms": "A'",
+      "POS_terms": "(A')",
+      "SOP_cost": [
+        1,
+        1
+      ],
+      "POS_cost": [
+        1,
+        1
+      ],
+      "preferred": "POS"
+    }
+  },
+  "2": {
+    "0": {
+      "SOP_terms": "0",
+      "POS_terms": "()",
+      "SOP_cost": [
+        0,
+        0
+      ],
+      "POS_cost": [
+        1,
+        0
+      ],
+      "preferred": "SOP"
+    },
+    "1": {
+      "SOP_terms": "A'B'",
+      "POS_terms": "(A')(B')",
+      "SOP_cost": [
+        1,
+        2
+      ],
+      "POS_cost": [
+        2,
+        2
+      ],
+      "preferred": "SOP"
+    },
+    "3": {
+      "SOP_terms": "A'",
+      "POS_terms": "(A')",
+      "SOP_cost": [
+        1,
+        1
+      ],
+      "POS_cost": [
+        1,
+        1
+      ],
+      "preferred": "POS"
+    },
+    "6": {
+      "SOP_terms": "A'B + AB'",
+      "POS_terms": "(A + B)(A' + B')",
+      "SOP_cost": [
+        2,
+        4
+      ],
+      "POS_cost": [
+        2,
+        4
+      ],
+      "preferred": "POS"
+    }
+  },
+  "3": {
+    "0": {
+      "SOP_terms": "0",
+      "POS_terms": "()",
+      "SOP_cost": [
+        0,
+        0
+      ],
+      "POS_cost": [
+        1,
+        0
+      ],
+      "preferred": "SOP"
+    },
+    "1": {
+      "SOP_terms": "A'B'C'",
+      "POS_terms": "(C')(B')(A')",
+      "SOP_cost": [
+        1,
+        3
+      ],
+      "POS_cost": [
+        3,
+        3
+      ],
+      "preferred": "SOP"
+    },
+    "3": {
+      "SOP_terms": "A'B'",
+      "POS_terms": "(B')(A')",
+      "SOP_cost": [
+        1,
+        2
+      ],
+      "POS_cost": [
+        2,
+        2
+      ],
+      "preferred": "SOP"
+    },
+    "6": {
+      "SOP_terms": "A'B'C + A'BC'",
+      "POS_terms": "(A')(B' + C')(B + C)",
+      "SOP_cost": [
+        2,
+        6
+      ],
+      "POS_cost": [
+        3,
+        5
+      ],
+      "preferred": "SOP"
+    },
+    "7": {
+      "SOP_terms": "A'B' + A'C'",
+      "POS_terms": "(A')(B' + C')",
+      "SOP_cost": [
+        2,
+        4
+      ],
+      "POS_cost": [
+        2,
+        3
+      ],
+      "preferred": "POS"
+    },
+    "15": {
+      "SOP_terms": "A'",
+      "POS_terms": "(A')",
+      "SOP_cost": [
+        1,
+        1
+      ],
+      "POS_cost": [
+        1,
+        1
+      ],
+      "preferred": "POS"
+    },
+    "22": {
+      "SOP_terms": "A'B'C + AB'C' + A'BC'",
+      "POS_terms": "(B' + C')(A + B + C)(A' + B')(A' + C')",
+      "SOP_cost": [
+        3,
+        9
+      ],
+      "POS_cost": [
+        4,
+        9
+      ],
+      "preferred": "SOP"
+    },
+    "23": {
+      "SOP_terms": "A'B' + B'C' + A'C'",
+      "POS_terms": "(B' + C')(A' + B')(A' + C')",
+      "SOP_cost": [
+        3,
+        6
+      ],
+      "POS_cost": [
+        3,
+        6
+      ],
+      "preferred": "POS"
+    },
+    "24": {
+      "SOP_terms": "A'BC + AB'C'",
+      "POS_terms": "(A' + C')(A + B)(B' + C)",
+      "SOP_cost": [
+        2,
+        6
+      ],
+      "POS_cost": [
+        3,
+        6
+      ],
+      "preferred": "SOP"
+    },
+    "25": {
+      "SOP_terms": "B'C' + A'BC",
+      "POS_terms": "(B' + C)(B + C')(A' + B')",
+      "SOP_cost": [
+        2,
+        5
+      ],
+      "POS_cost": [
+        3,
+        6
+      ],
+      "preferred": "SOP"
+    },
+    "27": {
+      "SOP_terms": "A'B' + B'C' + A'C",
+      "POS_terms": "(B' + C)(A' + C')",
+      "SOP_cost": [
+        3,
+        6
+      ],
+      "POS_cost": [
+        2,
+        4
+      ],
+      "preferred": "POS"
+    },
+    "30": {
+      "SOP_terms": "A'C + AB'C' + A'B",
+      "POS_terms": "(A' + B')(A + B + C)(A' + C')",
+      "SOP_cost": [
+        3,
+        7
+      ],
+      "POS_cost": [
+        3,
+        7
+      ],
+      "preferred": "POS"
+    },
+    "60": {
+      "SOP_terms": "AB' + A'B",
+      "POS_terms": "(A + B)(A' + B')",
+      "SOP_cost": [
+        2,
+        4
+      ],
+      "POS_cost": [
+        2,
+        4
+      ],
+      "preferred": "POS"
+    },
+    "105": {
+      "SOP_terms": "A'BC + AB'C + A'B'C' + ABC'",
+      "POS_terms": "(A + B + C')(A' + B' + C')(A' + B + C)(A + B' + C)",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        4,
+        12
+      ],
+      "preferred": "POS"
+    }
+  },
+  "4": {
+    "0": {
+      "SOP_terms": "0",
+      "POS_terms": "()",
+      "SOP_cost": [
+        0,
+        0
+      ],
+      "POS_cost": [
+        1,
+        0
+      ],
+      "preferred": "SOP"
+    },
+    "1": {
+      "SOP_terms": "A'B'C'D'",
+      "POS_terms": "(D')(B')(A')(C')",
+      "SOP_cost": [
+        1,
+        4
+      ],
+      "POS_cost": [
+        4,
+        4
+      ],
+      "preferred": "SOP"
+    },
+    "3": {
+      "SOP_terms": "A'B'C'",
+      "POS_terms": "(B')(A')(C')",
+      "SOP_cost": [
+        1,
+        3
+      ],
+      "POS_cost": [
+        3,
+        3
+      ],
+      "preferred": "SOP"
+    },
+    "6": {
+      "SOP_terms": "A'B'CD' + A'B'C'D",
+      "POS_terms": "(B')(A')(C' + D')(C + D)",
+      "SOP_cost": [
+        2,
+        8
+      ],
+      "POS_cost": [
+        4,
+        6
+      ],
+      "preferred": "SOP"
+    },
+    "7": {
+      "SOP_terms": "A'B'D' + A'B'C'",
+      "POS_terms": "(B')(A')(C' + D')",
+      "SOP_cost": [
+        2,
+        6
+      ],
+      "POS_cost": [
+        3,
+        4
+      ],
+      "preferred": "SOP"
+    },
+    "15": {
+      "SOP_terms": "A'B'",
+      "POS_terms": "(B')(A')",
+      "SOP_cost": [
+        1,
+        2
+      ],
+      "POS_cost": [
+        2,
+        2
+      ],
+      "preferred": "SOP"
+    },
+    "22": {
+      "SOP_terms": "A'BC'D' + A'B'CD' + A'B'C'D",
+      "POS_terms": "(A')(C' + D')(B + C + D)(B' + C')(B' + D')",
+      "SOP_cost": [
+        3,
+        12
+      ],
+      "POS_cost": [
+        5,
+        10
+      ],
+      "preferred": "SOP"
+    },
+    "23": {
+      "SOP_terms": "A'B'D' + A'C'D' + A'B'C'",
+      "POS_terms": "(A')(C' + D')(B' + C')(B' + D')",
+      "SOP_cost": [
+        3,
+        9
+      ],
+      "POS_cost": [
+        4,
+        7
+      ],
+      "preferred": "SOP"
+    },
+    "24": {
+      "SOP_terms": "A'BC'D' + A'B'CD",
+      "POS_terms": "(A')(C + D')(B' + C')(B + D)",
+      "SOP_cost": [
+        2,
+        8
+      ],
+      "POS_cost": [
+        4,
+        7
+      ],
+      "preferred": "SOP"
+    },
+    "25": {
+      "SOP_terms": "A'C'D' + A'B'CD",
+      "POS_terms": "(A')(C + D')(B' + C')(C' + D)",
+      "SOP_cost": [
+        2,
+        7
+      ],
+      "POS_cost": [
+        4,
+        7
+      ],
+      "preferred": "SOP"
+    },
+    "27": {
+      "SOP_terms": "A'C'D' + A'B'D",
+      "POS_terms": "(A')(B' + C')(C' + D)(B' + D')",
+      "SOP_cost": [
+        2,
+        6
+      ],
+      "POS_cost": [
+        4,
+        7
+      ],
+      "preferred": "SOP"
+    },
+    "30": {
+      "SOP_terms": "A'B'D + A'BC'D' + A'B'C",
+      "POS_terms": "(A')(B' + C')(B + C + D)(B' + D')",
+      "SOP_cost": [
+        3,
+        10
+      ],
+      "POS_cost": [
+        4,
+        8
+      ],
+      "preferred": "SOP"
+    },
+    "31": {
+      "SOP_terms": "A'B' + A'C'D'",
+      "POS_terms": "(A')(B' + C')(B' + D')",
+      "SOP_cost": [
+        2,
+        5
+      ],
+      "POS_cost": [
+        3,
+        5
+      ],
+      "preferred": "SOP"
+    },
+    "60": {
+      "SOP_terms": "A'BC' + A'B'C",
+      "POS_terms": "(A')(B' + C')(B + C)",
+      "SOP_cost": [
+        2,
+        6
+      ],
+      "POS_cost": [
+        3,
+        5
+      ],
+      "preferred": "SOP"
+    },
+    "61": {
+      "SOP_terms": "A'B'D' + A'BC' + A'B'C",
+      "POS_terms": "(A')(B' + C')(B + C + D')",
+      "SOP_cost": [
+        3,
+        9
+      ],
+      "POS_cost": [
+        3,
+        6
+      ],
+      "preferred": "POS"
+    },
+    "63": {
+      "SOP_terms": "A'B' + A'C'",
+      "POS_terms": "(A')(B' + C')",
+      "SOP_cost": [
+        2,
+        4
+      ],
+      "POS_cost": [
+        2,
+        3
+      ],
+      "preferred": "POS"
+    },
+    "105": {
+      "SOP_terms": "A'BCD' + A'B'CD + A'BC'D + A'B'C'D'",
+      "POS_terms": "(A')(B' + C + D)(B + C + D')(B' + C' + D')(B + C' + D)",
+      "SOP_cost": [
+        4,
+        16
+      ],
+      "POS_cost": [
+        5,
+        13
+      ],
+      "preferred": "SOP"
+    },
+    "107": {
+      "SOP_terms": "A'B'D + A'BCD' + A'C'D + A'B'C'",
+      "POS_terms": "(A')(B' + C + D)(B' + C' + D')(B + C' + D)",
+      "SOP_cost": [
+        4,
+        13
+      ],
+      "POS_cost": [
+        4,
+        10
+      ],
+      "preferred": "POS"
+    },
+    "111": {
+      "SOP_terms": "A'B' + A'C'D + A'CD'",
+      "POS_terms": "(A')(B' + C + D)(B' + C' + D')",
+      "SOP_cost": [
+        3,
+        8
+      ],
+      "POS_cost": [
+        3,
+        7
+      ],
+      "preferred": "POS"
+    },
+    "126": {
+      "SOP_terms": "A'B'D + A'CD' + A'BC'",
+      "POS_terms": "(A')(B + C + D)(B' + C' + D')",
+      "SOP_cost": [
+        3,
+        9
+      ],
+      "POS_cost": [
+        3,
+        7
+      ],
+      "preferred": "POS"
+    },
+    "127": {
+      "SOP_terms": "A'D' + A'B' + A'C'",
+      "POS_terms": "(A')(B' + C' + D')",
+      "SOP_cost": [
+        3,
+        6
+      ],
+      "POS_cost": [
+        2,
+        4
+      ],
+      "preferred": "POS"
+    },
+    "255": {
+      "SOP_terms": "A'",
+      "POS_terms": "(A')",
+      "SOP_cost": [
+        1,
+        1
+      ],
+      "POS_cost": [
+        1,
+        1
+      ],
+      "preferred": "POS"
+    },
+    "278": {
+      "SOP_terms": "A'BC'D' + A'B'CD' + AB'C'D' + A'B'C'D",
+      "POS_terms": "(A' + C')(B' + D')(A + B + C + D)(C' + D')(B' + C')(A' + B')(A' + D')",
+      "SOP_cost": [
+        4,
+        16
+      ],
+      "POS_cost": [
+        7,
+        16
+      ],
+      "preferred": "SOP"
+    },
+    "279": {
+      "SOP_terms": "A'B'D' + A'C'D' + B'C'D' + A'B'C'",
+      "POS_terms": "(A' + C')(B' + D')(C' + D')(B' + C')(A' + B')(A' + D')",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        6,
+        12
+      ],
+      "preferred": "SOP"
+    },
+    "280": {
+      "SOP_terms": "A'BC'D' + A'B'CD + AB'C'D'",
+      "POS_terms": "(C + D')(A' + C')(A + B + D)(B' + C')(A' + B')",
+      "SOP_cost": [
+        3,
+        12
+      ],
+      "POS_cost": [
+        5,
+        11
+      ],
+      "preferred": "SOP"
+    },
+    "281": {
+      "SOP_terms": "B'C'D' + A'B'CD + A'C'D'",
+      "POS_terms": "(C + D')(A' + C')(B' + C')(C' + D)(A' + B')",
+      "SOP_cost": [
+        3,
+        10
+      ],
+      "POS_cost": [
+        5,
+        10
+      ],
+      "preferred": "SOP"
+    },
+    "282": {
+      "SOP_terms": "A'B'D + A'BC'D' + AB'C'D'",
+      "POS_terms": "(A' + C')(B' + D')(A + B + D)(B' + C')(A' + B')(A' + D')",
+      "SOP_cost": [
+        3,
+        11
+      ],
+      "POS_cost": [
+        6,
+        13
+      ],
+      "preferred": "SOP"
+    },
+    "283": {
+      "SOP_terms": "A'C'D' + A'B'D + B'C'D'",
+      "POS_terms": "(A' + C')(B' + D')(C' + D)(A' + B')(A' + D')",
+      "SOP_cost": [
+        3,
+        9
+      ],
+      "POS_cost": [
+        5,
+        10
+      ],
+      "preferred": "SOP"
+    },
+    "286": {
+      "SOP_terms": "A'B'D + AB'C'D' + A'BC'D' + A'B'C",
+      "POS_terms": "(A' + C')(B' + D')(A + B + C + D)(B' + C')(A' + B')(A' + D')",
+      "SOP_cost": [
+        4,
+        14
+      ],
+      "POS_cost": [
+        6,
+        14
+      ],
+      "preferred": "SOP"
+    },
+    "287": {
+      "SOP_terms": "A'B' + B'C'D' + A'C'D'",
+      "POS_terms": "(A' + C')(B' + D')(B' + C')(A' + B')(A' + D')",
+      "SOP_cost": [
+        3,
+        8
+      ],
+      "POS_cost": [
+        5,
+        10
+      ],
+      "preferred": "SOP"
+    },
+    "300": {
+      "SOP_terms": "A'B'C + A'BC'D + AB'C'D'",
+      "POS_terms": "(A' + C')(B' + D)(A + B + C)(A' + D')(B' + C')",
+      "SOP_cost": [
+        3,
+        11
+      ],
+      "POS_cost": [
+        5,
+        11
+      ],
+      "preferred": "SOP"
+    },
+    "301": {
+      "SOP_terms": "A'B'D' + A'BC'D + B'C'D' + A'B'C",
+      "POS_terms": "(A' + C')(B' + D)(B + C + D')(B' + C')(A' + B')",
+      "SOP_cost": [
+        4,
+        13
+      ],
+      "POS_cost": [
+        5,
+        11
+      ],
+      "preferred": "SOP"
+    },
+    "303": {
+      "SOP_terms": "A'B' + A'C'D + B'C'D'",
+      "POS_terms": "(A' + C')(B' + D)(A' + D')(B' + C')",
+      "SOP_cost": [
+        3,
+        8
+      ],
+      "POS_cost": [
+        4,
+        8
+      ],
+      "preferred": "SOP"
+    },
+    "316": {
+      "SOP_terms": "A'BC' + A'B'C + AB'C'D'",
+      "POS_terms": "(A' + B')(A + B + C)(A' + C')(B' + C')(B + C + D')",
+      "SOP_cost": [
+        3,
+        10
+      ],
+      "POS_cost": [
+        5,
+        12
+      ],
+      "preferred": "SOP"
+    },
+    "317": {
+      "SOP_terms": "B'C'D' + A'B'C + A'BC'",
+      "POS_terms": "(A' + B')(B + C + D')(A' + C')(B' + C')",
+      "SOP_cost": [
+        3,
+        9
+      ],
+      "POS_cost": [
+        4,
+        9
+      ],
+      "preferred": "SOP"
+    },
+    "318": {
+      "SOP_terms": "A'B'D + A'BC' + AB'C'D' + A'B'C",
+      "POS_terms": "(A' + B')(A' + C')(B' + C')(A + B + C + D)(A' + D')",
+      "SOP_cost": [
+        4,
+        13
+      ],
+      "POS_cost": [
+        5,
+        12
+      ],
+      "preferred": "SOP"
+    },
+    "319": {
+      "SOP_terms": "A'B' + A'C' + B'C'D'",
+      "POS_terms": "(A' + B')(A' + C')(B' + C')(A' + D')",
+      "SOP_cost": [
+        3,
+        7
+      ],
+      "POS_cost": [
+        4,
+        8
+      ],
+      "preferred": "SOP"
+    },
+    "360": {
+      "SOP_terms": "A'B'CD + A'BC'D + A'BCD' + AB'C'D'",
+      "POS_terms": "(A' + B')(A + B + C)(B + C' + D)(A' + D')(B' + C + D)(B' + C' + D')",
+      "SOP_cost": [
+        4,
+        16
+      ],
+      "POS_cost": [
+        6,
+        16
+      ],
+      "preferred": "SOP"
+    },
+    "361": {
+      "SOP_terms": "B'C'D' + A'BC'D + A'B'CD + A'BCD'",
+      "POS_terms": "(A' + B')(B + C + D')(B + C' + D)(B' + C + D)(B' + C' + D')(A' + C')",
+      "SOP_cost": [
+        4,
+        15
+      ],
+      "POS_cost": [
+        6,
+        16
+      ],
+      "preferred": "SOP"
+    },
+    "362": {
+      "SOP_terms": "A'B'D + AB'C'D' + A'BCD' + A'C'D",
+      "POS_terms": "(A' + B')(A + B + D)(A' + C')(B' + C + D)(B' + C' + D')(A' + D')",
+      "SOP_cost": [
+        4,
+        14
+      ],
+      "POS_cost": [
+        6,
+        15
+      ],
+      "preferred": "SOP"
+    },
+    "363": {
+      "SOP_terms": "A'B'D + B'C'D' + A'BCD' + A'C'D",
+      "POS_terms": "(A' + B')(B + C' + D)(A' + D')(B' + C + D)(B' + C' + D')",
+      "SOP_cost": [
+        4,
+        13
+      ],
+      "POS_cost": [
+        5,
+        13
+      ],
+      "preferred": "SOP"
+    },
+    "366": {
+      "SOP_terms": "A'CD' + A'B'D + AB'C'D' + A'C'D",
+      "POS_terms": "(A' + B')(A + C + D)(A' + C')(B' + C' + D')(A' + D')",
+      "SOP_cost": [
+        4,
+        13
+      ],
+      "POS_cost": [
+        5,
+        12
+      ],
+      "preferred": "SOP"
+    },
+    "367": {
+      "SOP_terms": "A'B' + A'C'D + A'CD' + B'C'D'",
+      "POS_terms": "(A' + B')(A' + C')(B' + C + D)(B' + C' + D')(A' + D')",
+      "SOP_cost": [
+        4,
+        11
+      ],
+      "POS_cost": [
+        5,
+        12
+      ],
+      "preferred": "SOP"
+    },
+    "382": {
+      "SOP_terms": "A'B'D + A'CD' + A'BC' + AB'C'D'",
+      "POS_terms": "(A' + B')(A' + C')(A + B + C + D)(B' + C' + D')(A' + D')",
+      "SOP_cost": [
+        4,
+        13
+      ],
+      "POS_cost": [
+        5,
+        13
+      ],
+      "preferred": "SOP"
+    },
+    "383": {
+      "SOP_terms": "A'D' + A'B' + B'C'D' + A'C'",
+      "POS_terms": "(A' + B')(A' + C')(B' + C' + D')(A' + D')",
+      "SOP_cost": [
+        4,
+        9
+      ],
+      "POS_cost": [
+        4,
+        9
+      ],
+      "preferred": "POS"
+    },
+    "384": {
+      "SOP_terms": "AB'C'D' + A'BCD",
+      "POS_terms": "(C + D')(B + C')(B' + D)(A' + C')(A + B)",
+      "SOP_cost": [
+        2,
+        8
+      ],
+      "POS_cost": [
+        5,
+        10
+      ],
+      "preferred": "SOP"
+    },
+    "385": {
+      "SOP_terms": "B'C'D' + A'BCD",
+      "POS_terms": "(C + D')(B + C')(B' + D)(A' + C')",
+      "SOP_cost": [
+        2,
+        7
+      ],
+      "POS_cost": [
+        4,
+        8
+      ],
+      "preferred": "SOP"
+    },
+    "386": {
+      "SOP_terms": "AB'C'D' + A'B'C'D + A'BCD",
+      "POS_terms": "(B + C')(B' + D)(A' + D')(B' + C)(A + D)",
+      "SOP_cost": [
+        3,
+        12
+      ],
+      "POS_cost": [
+        5,
+        10
+      ],
+      "preferred": "SOP"
+    },
+    "387": {
+      "SOP_terms": "B'C'D' + A'BCD + A'B'C'",
+      "POS_terms": "(B + C')(B' + D)(A' + D')(B' + C)",
+      "SOP_cost": [
+        3,
+        10
+      ],
+      "POS_cost": [
+        4,
+        8
+      ],
+      "preferred": "SOP"
+    },
+    "390": {
+      "SOP_terms": "A'B'CD' + AB'C'D' + A'B'C'D + A'BCD",
+      "POS_terms": "(A' + C')(B' + C)(B + C' + D')(A + C + D)(B' + D)(A' + D')",
+      "SOP_cost": [
+        4,
+        16
+      ],
+      "POS_cost": [
+        6,
+        14
+      ],
+      "preferred": "SOP"
+    },
+    "391": {
+      "SOP_terms": "A'B'D' + A'BCD + B'C'D' + A'B'C'",
+      "POS_terms": "(A' + C')(B' + C)(B + C' + D')(B' + D)(A' + D')",
+      "SOP_cost": [
+        4,
+        13
+      ],
+      "POS_cost": [
+        5,
+        11
+      ],
+      "preferred": "SOP"
+    },
+    "393": {
+      "SOP_terms": "A'CD + B'C'D'",
+      "POS_terms": "(C + D')(A' + C')(B' + D)(C' + D)",
+      "SOP_cost": [
+        2,
+        6
+      ],
+      "POS_cost": [
+        4,
+        8
+      ],
+      "preferred": "SOP"
+    },
+    "395": {
+      "SOP_terms": "A'B'D + B'C'D' + A'CD",
+      "POS_terms": "(A' + C')(B' + C)(C' + D)(A' + D')",
+      "SOP_cost": [
+        3,
+        9
+      ],
+      "POS_cost": [
+        4,
+        8
+      ],
+      "preferred": "SOP"
+    },
+    "399": {
+      "SOP_terms": "A'B' + B'C'D' + A'CD",
+      "POS_terms": "(A' + C')(B' + C)(B' + D)(A' + D')",
+      "SOP_cost": [
+        3,
+        8
+      ],
+      "POS_cost": [
+        4,
+        8
+      ],
+      "preferred": "SOP"
+    },
+    "406": {
+      "SOP_terms": "A'B'CD' + AB'C'D' + A'BC'D' + A'B'C'D + A'BCD",
+      "POS_terms": "(A' + B')(B + C' + D')(A + B + C + D)(B' + C' + D)(B' + C + D')(A' + C')(A' + D')",
+      "SOP_cost": [
+        5,
+        20
+      ],
+      "POS_cost": [
+        7,
+        19
+      ],
+      "preferred": "SOP"
+    },
+    "407": {
+      "SOP_terms": "A'B'D' + A'BCD + A'C'D' + B'C'D' + A'B'C'",
+      "POS_terms": "(A' + B')(B + C' + D')(B' + C' + D)(B' + C + D')(A' + C')(A' + D')",
+      "SOP_cost": [
+        5,
+        16
+      ],
+      "POS_cost": [
+        6,
+        15
+      ],
+      "preferred": "SOP"
+    },
+    "408": {
+      "SOP_terms": "A'CD + A'BC'D' + AB'C'D'",
+      "POS_terms": "(C + D')(A' + C')(A + B + D)(C' + D)(A' + B')",
+      "SOP_cost": [
+        3,
+        11
+      ],
+      "POS_cost": [
+        5,
+        11
+      ],
+      "preferred": "SOP"
+    },
+    "409": {
+      "SOP_terms": "A'C'D' + A'CD + B'C'D'",
+      "POS_terms": "(C + D')(A' + C')(C' + D)(A' + B')",
+      "SOP_cost": [
+        3,
+        9
+      ],
+      "POS_cost": [
+        4,
+        8
+      ],
+      "preferred": "SOP"
+    },
+    "410": {
+      "SOP_terms": "A'B'D + AB'C'D' + A'BC'D' + A'CD",
+      "POS_terms": "(A' + B')(C' + D)(A' + D')(A + B + D)(B' + C + D')",
+      "SOP_cost": [
+        4,
+        14
+      ],
+      "POS_cost": [
+        5,
+        12
+      ],
+      "preferred": "SOP"
+    },
+    "411": {
+      "SOP_terms": "A'B'D + B'C'D' + A'CD + A'C'D'",
+      "POS_terms": "(A' + B')(C' + D)(A' + D')(B' + C + D')",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        4,
+        9
+      ],
+      "preferred": "POS"
+    },
+    "414": {
+      "SOP_terms": "A'B'D + AB'C'D' + A'BC'D' + A'CD + A'B'C",
+      "POS_terms": "(A' + B')(A' + C')(A + B + C + D)(B' + C' + D)(B' + C + D')(A' + D')",
+      "SOP_cost": [
+        5,
+        17
+      ],
+      "POS_cost": [
+        6,
+        16
+      ],
+      "preferred": "SOP"
+    },
+    "415": {
+      "SOP_terms": "A'B' + B'C'D' + A'CD + A'C'D'",
+      "POS_terms": "(A' + B')(A' + C')(B' + C' + D)(B' + C + D')(A' + D')",
+      "SOP_cost": [
+        4,
+        11
+      ],
+      "POS_cost": [
+        5,
+        12
+      ],
+      "preferred": "SOP"
+    },
+    "424": {
+      "SOP_terms": "A'CD + AB'C'D' + A'BD",
+      "POS_terms": "(A' + C')(A + D)(B + C + D')(A' + B')",
+      "SOP_cost": [
+        3,
+        10
+      ],
+      "POS_cost": [
+        4,
+        9
+      ],
+      "preferred": "SOP"
+    },
+    "425": {
+      "SOP_terms": "A'CD + B'C'D' + A'BD",
+      "POS_terms": "(A' + C')(B' + D)(B + C + D')(C' + D)(A' + B')",
+      "SOP_cost": [
+        3,
+        9
+      ],
+      "POS_cost": [
+        5,
+        11
+      ],
+      "preferred": "SOP"
+    },
+    "426": {
+      "SOP_terms": "A'D + AB'C'D'",
+      "POS_terms": "(A' + C')(A + D)(A' + B')(A' + D')",
+      "SOP_cost": [
+        2,
+        6
+      ],
+      "POS_cost": [
+        4,
+        8
+      ],
+      "preferred": "SOP"
+    },
+    "427": {
+      "SOP_terms": "A'D + B'C'D'",
+      "POS_terms": "(A' + C')(B' + D)(A' + D')(C' + D)",
+      "SOP_cost": [
+        2,
+        5
+      ],
+      "POS_cost": [
+        4,
+        8
+      ],
+      "preferred": "SOP"
+    },
+    "428": {
+      "SOP_terms": "A'CD + AB'C'D' + A'BD + A'B'C",
+      "POS_terms": "(A' + B')(A + B + C)(A' + C')(B' + D)(B + C + D')",
+      "SOP_cost": [
+        4,
+        13
+      ],
+      "POS_cost": [
+        5,
+        12
+      ],
+      "preferred": "SOP"
+    },
+    "429": {
+      "SOP_terms": "B'C'D' + A'CD + A'B'D' + A'BD",
+      "POS_terms": "(A' + B')(B + C + D')(A' + C')(B' + D)",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        4,
+        9
+      ],
+      "preferred": "POS"
+    },
+    "430": {
+      "SOP_terms": "A'D + AB'C'D' + A'B'C",
+      "POS_terms": "(A' + B')(A + C + D)(A' + C')(B' + D)(A' + D')",
+      "SOP_cost": [
+        3,
+        9
+      ],
+      "POS_cost": [
+        5,
+        11
+      ],
+      "preferred": "SOP"
+    },
+    "431": {
+      "SOP_terms": "A'D + B'C'D' + A'B'",
+      "POS_terms": "(A' + B')(A' + C')(B' + D)(A' + D')",
+      "SOP_cost": [
+        3,
+        7
+      ],
+      "POS_cost": [
+        4,
+        8
+      ],
+      "preferred": "SOP"
+    },
+    "444": {
+      "SOP_terms": "A'CD + A'BC' + AB'C'D' + A'B'C",
+      "POS_terms": "(A' + B')(A + B + C)(A' + C')(B' + C' + D)(B + C + D')",
+      "SOP_cost": [
+        4,
+        13
+      ],
+      "POS_cost": [
+        5,
+        13
+      ],
+      "preferred": "SOP"
+    },
+    "445": {
+      "SOP_terms": "B'C'D' + A'CD + A'BC' + A'B'D'",
+      "POS_terms": "(A' + B')(B + C + D')(A' + C')(B' + C' + D)",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        4,
+        10
+      ],
+      "preferred": "POS"
+    },
+    "446": {
+      "SOP_terms": "A'D + AB'C'D' + A'B'C + A'BC'",
+      "POS_terms": "(A' + B')(A' + C')(A + B + C + D)(B' + C' + D)(A' + D')",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        5,
+        13
+      ],
+      "preferred": "SOP"
+    },
+    "447": {
+      "SOP_terms": "A'D + B'C'D' + A'B' + A'C'",
+      "POS_terms": "(A' + B')(A' + C')(B' + C' + D)(A' + D')",
+      "SOP_cost": [
+        4,
+        9
+      ],
+      "POS_cost": [
+        4,
+        9
+      ],
+      "preferred": "POS"
+    },
+    "488": {
+      "SOP_terms": "A'BC + AB'C'D' + A'CD + A'BD",
+      "POS_terms": "(A' + B')(A + B + C)(B + C' + D)(A' + D')(B' + C + D)",
+      "SOP_cost": [
+        4,
+        13
+      ],
+      "POS_cost": [
+        5,
+        13
+      ],
+      "preferred": "SOP"
+    },
+    "489": {
+      "SOP_terms": "A'CD + B'C'D' + A'BC + A'BD",
+      "POS_terms": "(A' + B')(B + C + D')(B + C' + D)(B' + C + D)(A' + C')",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        5,
+        13
+      ],
+      "preferred": "SOP"
+    },
+    "490": {
+      "SOP_terms": "A'D + AB'C'D' + A'BC",
+      "POS_terms": "(A' + B')(A + B + D)(A' + C')(B' + C + D)(A' + D')",
+      "SOP_cost": [
+        3,
+        9
+      ],
+      "POS_cost": [
+        5,
+        12
+      ],
+      "preferred": "SOP"
+    },
+    "491": {
+      "SOP_terms": "A'D + B'C'D' + A'BC",
+      "POS_terms": "(A' + B')(B + C' + D)(A' + D')(B' + C + D)",
+      "SOP_cost": [
+        3,
+        8
+      ],
+      "POS_cost": [
+        4,
+        10
+      ],
+      "preferred": "SOP"
+    },
+    "494": {
+      "SOP_terms": "A'D + A'C + AB'C'D'",
+      "POS_terms": "(A' + B')(A + C + D)(A' + C')(A' + D')",
+      "SOP_cost": [
+        3,
+        8
+      ],
+      "POS_cost": [
+        4,
+        9
+      ],
+      "preferred": "SOP"
+    },
+    "495": {
+      "SOP_terms": "A'D + B'C'D' + A'C",
+      "POS_terms": "(A' + B')(A' + C')(B' + C + D)(A' + D')",
+      "SOP_cost": [
+        3,
+        7
+      ],
+      "POS_cost": [
+        4,
+        9
+      ],
+      "preferred": "SOP"
+    },
+    "510": {
+      "SOP_terms": "A'B + A'D + AB'C'D' + A'C",
+      "POS_terms": "(A' + B')(A' + C')(A + B + C + D)(A' + D')",
+      "SOP_cost": [
+        4,
+        10
+      ],
+      "POS_cost": [
+        4,
+        10
+      ],
+      "preferred": "POS"
+    },
+    "828": {
+      "SOP_terms": "A'BC' + AB'C' + A'B'C",
+      "POS_terms": "(A' + B')(A + B + C)(B' + C')(A' + C')",
+      "SOP_cost": [
+        3,
+        9
+      ],
+      "POS_cost": [
+        4,
+        9
+      ],
+      "preferred": "SOP"
+    },
+    "829": {
+      "SOP_terms": "B'C'D' + A'B'C + A'BC' + AB'C'",
+      "POS_terms": "(A' + B')(B' + C')(A' + C')(A + B + C + D')",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        4,
+        10
+      ],
+      "preferred": "POS"
+    },
+    "831": {
+      "SOP_terms": "B'C' + A'B' + A'C'",
+      "POS_terms": "(A' + B')(B' + C')(A' + C')",
+      "SOP_cost": [
+        3,
+        6
+      ],
+      "POS_cost": [
+        3,
+        6
+      ],
+      "preferred": "POS"
+    },
+    "854": {
+      "SOP_terms": "A'CD' + B'C'D + A'BD' + AB'C'",
+      "POS_terms": "(A' + B')(C' + D')(A + B + C + D)(B' + D')(A' + C')",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        5,
+        12
+      ],
+      "preferred": "SOP"
+    },
+    "855": {
+      "SOP_terms": "A'D' + B'C'",
+      "POS_terms": "(A' + B')(C' + D')(B' + D')(A' + C')",
+      "SOP_cost": [
+        2,
+        4
+      ],
+      "POS_cost": [
+        4,
+        8
+      ],
+      "preferred": "SOP"
+    },
+    "856": {
+      "SOP_terms": "A'BD' + AB'C' + A'B'CD",
+      "POS_terms": "(A' + B')(A + B + C)(B + C' + D)(B' + D')(A' + C')",
+      "SOP_cost": [
+        3,
+        10
+      ],
+      "POS_cost": [
+        5,
+        12
+      ],
+      "preferred": "SOP"
+    },
+    "857": {
+      "SOP_terms": "A'C'D' + AB'C' + A'B'CD + A'BD'",
+      "POS_terms": "(A' + B')(A + C + D')(B + C' + D)(B' + D')(A' + C')",
+      "SOP_cost": [
+        4,
+        13
+      ],
+      "POS_cost": [
+        5,
+        12
+      ],
+      "preferred": "SOP"
+    },
+    "858": {
+      "SOP_terms": "A'BD' + A'B'D + AB'C'",
+      "POS_terms": "(A' + B')(A + B + D)(B' + D')(A' + C')",
+      "SOP_cost": [
+        3,
+        9
+      ],
+      "POS_cost": [
+        4,
+        9
+      ],
+      "preferred": "SOP"
+    },
+    "859": {
+      "SOP_terms": "B'C' + A'BD' + A'B'D",
+      "POS_terms": "(A' + B')(B + C' + D)(B' + D')(A' + C')",
+      "SOP_cost": [
+        3,
+        8
+      ],
+      "POS_cost": [
+        4,
+        9
+      ],
+      "preferred": "SOP"
+    },
+    "862": {
+      "SOP_terms": "A'B'D + A'CD' + AB'C' + A'BD'",
+      "POS_terms": "(A' + B')(B' + D')(A' + C')(A + B + C + D)",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        4,
+        10
+      ],
+      "preferred": "POS"
+    },
+    "863": {
+      "SOP_terms": "A'D' + B'C' + A'B'",
+      "POS_terms": "(A' + B')(B' + D')(A' + C')",
+      "SOP_cost": [
+        3,
+        6
+      ],
+      "POS_cost": [
+        3,
+        6
+      ],
+      "preferred": "POS"
+    },
+    "872": {
+      "SOP_terms": "AB'C' + A'BC'D + A'BCD' + A'B'CD",
+      "POS_terms": "(A' + B')(A + B + C)(B + C' + D)(B' + C + D)(B' + C' + D')(A' + C')",
+      "SOP_cost": [
+        4,
+        15
+      ],
+      "POS_cost": [
+        6,
+        16
+      ],
+      "preferred": "SOP"
+    },
+    "873": {
+      "SOP_terms": "B'C'D' + A'BC'D + A'B'CD + A'BCD' + AB'C'",
+      "POS_terms": "(A' + B')(B + C' + D)(A + B + C + D')(B' + C + D)(B' + C' + D')(A' + C')",
+      "SOP_cost": [
+        5,
+        18
+      ],
+      "POS_cost": [
+        6,
+        17
+      ],
+      "preferred": "SOP"
+    },
+    "874": {
+      "SOP_terms": "A'B'D + AB'C' + A'BCD' + A'C'D",
+      "POS_terms": "(A' + B')(A + B + D)(A' + C')(B' + C + D)(B' + C' + D')",
+      "SOP_cost": [
+        4,
+        13
+      ],
+      "POS_cost": [
+        5,
+        13
+      ],
+      "preferred": "SOP"
+    },
+    "875": {
+      "SOP_terms": "B'C' + A'BCD' + A'B'D + A'C'D",
+      "POS_terms": "(A' + B')(B + C' + D)(B' + C + D)(B' + C' + D')(A' + C')",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        5,
+        13
+      ],
+      "preferred": "SOP"
+    },
+    "876": {
+      "SOP_terms": "A'CD' + AB'C' + A'BC'D + A'B'C",
+      "POS_terms": "(A' + B')(A + B + C)(A' + C')(B' + C + D)(B' + C' + D')",
+      "SOP_cost": [
+        4,
+        13
+      ],
+      "POS_cost": [
+        5,
+        13
+      ],
+      "preferred": "SOP"
+    },
+    "877": {
+      "SOP_terms": "A'CD' + AB'C' + A'BC'D + B'C'D' + A'B'C",
+      "POS_terms": "(A' + B')(A' + C')(A + B + C + D')(B' + C + D)(B' + C' + D')",
+      "SOP_cost": [
+        5,
+        16
+      ],
+      "POS_cost": [
+        5,
+        14
+      ],
+      "preferred": "POS"
+    },
+    "878": {
+      "SOP_terms": "A'B'D + A'CD' + AB'C' + A'C'D",
+      "POS_terms": "(A' + B')(A + C + D)(A' + C')(B' + C' + D')",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        4,
+        10
+      ],
+      "preferred": "POS"
+    },
+    "879": {
+      "SOP_terms": "B'C' + A'CD' + A'C'D + A'B'",
+      "POS_terms": "(A' + B')(A' + C')(B' + C + D)(B' + C' + D')",
+      "SOP_cost": [
+        4,
+        10
+      ],
+      "POS_cost": [
+        4,
+        10
+      ],
+      "preferred": "POS"
+    },
+    "892": {
+      "SOP_terms": "A'CD' + AB'C' + A'BC' + A'B'C",
+      "POS_terms": "(A' + B')(A + B + C)(A' + C')(B' + C' + D')",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        4,
+        10
+      ],
+      "preferred": "POS"
+    },
+    "893": {
+      "SOP_terms": "A'D' + AB'C' + A'B'C + A'BC'",
+      "POS_terms": "(A' + B')(A' + C')(A + B + C + D')(B' + C' + D')",
+      "SOP_cost": [
+        4,
+        11
+      ],
+      "POS_cost": [
+        4,
+        11
+      ],
+      "preferred": "POS"
+    },
+    "894": {
+      "SOP_terms": "A'B'D + A'CD' + AB'C' + A'BC'",
+      "POS_terms": "(A' + B')(A' + C')(A + B + C + D)(B' + C' + D')",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        4,
+        11
+      ],
+      "preferred": "POS"
+    },
+    "960": {
+      "SOP_terms": "A'BC + AB'C'",
+      "POS_terms": "(B + C')(B' + C)(A' + C')(A + B)",
+      "SOP_cost": [
+        2,
+        6
+      ],
+      "POS_cost": [
+        4,
+        8
+      ],
+      "preferred": "SOP"
+    },
+    "961": {
+      "SOP_terms": "A'BC + B'C'D' + AB'C'",
+      "POS_terms": "(A' + B')(B + C')(A + C + D')(B' + C)",
+      "SOP_cost": [
+        3,
+        9
+      ],
+      "POS_cost": [
+        4,
+        9
+      ],
+      "preferred": "SOP"
+    },
+    "963": {
+      "SOP_terms": "B'C' + A'BC",
+      "POS_terms": "(A' + B')(B + C')(B' + C)",
+      "SOP_cost": [
+        2,
+        5
+      ],
+      "POS_cost": [
+        3,
+        6
+      ],
+      "preferred": "SOP"
+    },
+    "965": {
+      "SOP_terms": "A'CD' + B'C'D' + AB'C' + A'BC",
+      "POS_terms": "(A' + B')(A + B + D')(A' + C')(B' + C)",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        4,
+        9
+      ],
+      "preferred": "POS"
+    },
+    "966": {
+      "SOP_terms": "A'CD' + B'C'D + A'BC + AB'C'",
+      "POS_terms": "(A' + B')(B + C' + D')(A + C + D)(A' + C')(B' + C)",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        5,
+        12
+      ],
+      "preferred": "SOP"
+    },
+    "967": {
+      "SOP_terms": "B'C' + A'CD' + A'BC",
+      "POS_terms": "(A' + B')(B + C' + D')(B' + C)(A' + C')",
+      "SOP_cost": [
+        3,
+        8
+      ],
+      "POS_cost": [
+        4,
+        9
+      ],
+      "preferred": "SOP"
+    },
+    "975": {
+      "SOP_terms": "B'C' + A'C",
+      "POS_terms": "(A' + B')(A' + C')(B' + C)",
+      "SOP_cost": [
+        2,
+        4
+      ],
+      "POS_cost": [
+        3,
+        6
+      ],
+      "preferred": "SOP"
+    },
+    "980": {
+      "SOP_terms": "A'CD' + AB'C' + A'BD' + A'BC",
+      "POS_terms": "(A' + B')(A + B + D')(A' + C')(A + B + C)(A + C + D')",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        5,
+        13
+      ],
+      "preferred": "SOP"
+    },
+    "981": {
+      "SOP_terms": "A'D' + AB'C' + A'BC",
+      "POS_terms": "(A' + B')(A + B + D')(A' + C')(A + C + D')",
+      "SOP_cost": [
+        3,
+        8
+      ],
+      "POS_cost": [
+        4,
+        10
+      ],
+      "preferred": "SOP"
+    },
+    "982": {
+      "SOP_terms": "A'CD' + B'C'D + AB'C' + A'BD' + A'BC",
+      "POS_terms": "(A' + B')(B + C' + D')(A + B + C + D)(B' + C + D')(A' + C')",
+      "SOP_cost": [
+        5,
+        15
+      ],
+      "POS_cost": [
+        5,
+        14
+      ],
+      "preferred": "POS"
+    },
+    "983": {
+      "SOP_terms": "A'D' + B'C' + A'BC",
+      "POS_terms": "(A' + B')(B + C' + D')(B' + C + D')(A' + C')",
+      "SOP_cost": [
+        3,
+        7
+      ],
+      "POS_cost": [
+        4,
+        10
+      ],
+      "preferred": "SOP"
+    },
+    "984": {
+      "SOP_terms": "A'BD' + AB'C' + A'CD",
+      "POS_terms": "(A' + B')(A + B + C)(B + C' + D)(A + C + D')(A' + C')",
+      "SOP_cost": [
+        3,
+        9
+      ],
+      "POS_cost": [
+        5,
+        13
+      ],
+      "preferred": "SOP"
+    },
+    "985": {
+      "SOP_terms": "B'C'D' + A'BD' + A'CD + AB'C'",
+      "POS_terms": "(A' + B')(A + C + D')(B + C' + D)(A' + C')",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        4,
+        10
+      ],
+      "preferred": "POS"
+    },
+    "987": {
+      "SOP_terms": "B'C' + A'BD' + A'CD",
+      "POS_terms": "(A' + B')(B + C' + D)(B' + C + D')(A' + C')",
+      "SOP_cost": [
+        3,
+        8
+      ],
+      "POS_cost": [
+        4,
+        10
+      ],
+      "preferred": "SOP"
+    },
+    "988": {
+      "SOP_terms": "A'C + AB'C' + A'BD'",
+      "POS_terms": "(A' + B')(A + B + C)(A' + C')(A + C + D')",
+      "SOP_cost": [
+        3,
+        8
+      ],
+      "POS_cost": [
+        4,
+        10
+      ],
+      "preferred": "SOP"
+    },
+    "989": {
+      "SOP_terms": "A'D' + AB'C' + A'C",
+      "POS_terms": "(A' + B')(A + C + D')(A' + C')",
+      "SOP_cost": [
+        3,
+        7
+      ],
+      "POS_cost": [
+        3,
+        7
+      ],
+      "preferred": "POS"
+    },
+    "990": {
+      "SOP_terms": "A'C + B'C'D + AB'C' + A'BD'",
+      "POS_terms": "(A' + B')(A' + C')(A + B + C + D)(B' + C + D')",
+      "SOP_cost": [
+        4,
+        11
+      ],
+      "POS_cost": [
+        4,
+        11
+      ],
+      "preferred": "POS"
+    },
+    "1020": {
+      "SOP_terms": "A'B + AB'C' + A'C",
+      "POS_terms": "(A' + B')(A + B + C)(A' + C')",
+      "SOP_cost": [
+        3,
+        7
+      ],
+      "POS_cost": [
+        3,
+        7
+      ],
+      "preferred": "POS"
+    },
+    "1632": {
+      "SOP_terms": "AB'C'D + AB'CD' + A'BCD' + A'BC'D",
+      "POS_terms": "(A' + B')(A + B)(C' + D')(C + D)",
+      "SOP_cost": [
+        4,
+        16
+      ],
+      "POS_cost": [
+        4,
+        8
+      ],
+      "preferred": "POS"
+    },
+    "1633": {
+      "SOP_terms": "A'B'C'D' + A'BC'D + AB'CD' + AB'C'D + A'BCD'",
+      "POS_terms": "(A' + B')(C' + D')(A + B + D')(B' + C + D)(A + B + C')(A' + C + D)",
+      "SOP_cost": [
+        5,
+        20
+      ],
+      "POS_cost": [
+        6,
+        16
+      ],
+      "preferred": "SOP"
+    },
+    "1634": {
+      "SOP_terms": "B'C'D + AB'CD' + A'BCD' + A'C'D",
+      "POS_terms": "(A' + B')(C' + D')(C + D)(A + B + D)",
+      "SOP_cost": [
+        4,
+        14
+      ],
+      "POS_cost": [
+        4,
+        9
+      ],
+      "preferred": "POS"
+    },
+    "1635": {
+      "SOP_terms": "A'C'D + AB'CD' + A'BCD' + B'C'D + A'B'C'",
+      "POS_terms": "(A' + B')(C' + D')(B' + C + D)(A + B + C')(A' + C + D)",
+      "SOP_cost": [
+        5,
+        17
+      ],
+      "POS_cost": [
+        5,
+        13
+      ],
+      "preferred": "POS"
+    },
+    "1638": {
+      "SOP_terms": "A'CD' + B'C'D + B'CD' + A'C'D",
+      "POS_terms": "(A' + B')(C' + D')(C + D)",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        3,
+        6
+      ],
+      "preferred": "POS"
+    },
+    "1639": {
+      "SOP_terms": "A'B'C' + A'CD' + A'C'D + B'C'D + B'CD'",
+      "POS_terms": "(A' + B')(C' + D')(B' + C + D)(A' + C + D)",
+      "SOP_cost": [
+        5,
+        15
+      ],
+      "POS_cost": [
+        4,
+        10
+      ],
+      "preferred": "POS"
+    },
+    "1641": {
+      "SOP_terms": "A'B'C'D' + A'BC'D + A'B'CD + AB'CD' + AB'C'D + A'BCD'",
+      "POS_terms": "(A' + B')(A + B + C' + D)(A + B + C + D')(B' + C + D)(A' + C' + D')(B' + C' + D')(A' + C + D)",
+      "SOP_cost": [
+        6,
+        24
+      ],
+      "POS_cost": [
+        7,
+        22
+      ],
+      "preferred": "SOP"
+    },
+    "1643": {
+      "SOP_terms": "A'B'D + A'BCD' + AB'CD' + A'C'D + B'C'D + A'B'C'",
+      "POS_terms": "(A' + B')(A + B + C' + D)(B' + C + D)(A' + C' + D')(B' + C' + D')(A' + C + D)",
+      "SOP_cost": [
+        6,
+        20
+      ],
+      "POS_cost": [
+        6,
+        18
+      ],
+      "preferred": "POS"
+    },
+    "1647": {
+      "SOP_terms": "A'B' + A'C'D + A'CD' + B'C'D + B'CD'",
+      "POS_terms": "(A' + B')(B' + C + D)(A' + C' + D')(B' + C' + D')(A' + C + D)",
+      "SOP_cost": [
+        5,
+        14
+      ],
+      "POS_cost": [
+        5,
+        14
+      ],
+      "preferred": "POS"
+    },
+    "1650": {
+      "SOP_terms": "A'BD' + B'C'D + AB'CD' + A'BC'",
+      "POS_terms": "(A' + B')(C' + D')(B + C + D)(A + B + D)",
+      "SOP_cost": [
+        4,
+        13
+      ],
+      "POS_cost": [
+        4,
+        10
+      ],
+      "preferred": "POS"
+    },
+    "1651": {
+      "SOP_terms": "A'C' + AB'CD' + B'C'D + A'BD'",
+      "POS_terms": "(A' + B')(C' + D')(A + B + C')(A' + C + D)",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        4,
+        10
+      ],
+      "preferred": "POS"
+    },
+    "1654": {
+      "SOP_terms": "A'C'D + A'CD' + B'C'D + A'BD' + B'CD'",
+      "POS_terms": "(A' + B')(C' + D')(B + C + D)",
+      "SOP_cost": [
+        5,
+        15
+      ],
+      "POS_cost": [
+        3,
+        7
+      ],
+      "preferred": "POS"
+    },
+    "1656": {
+      "SOP_terms": "A'BD' + AB'CD' + AB'C'D + A'B'CD + A'BC'",
+      "POS_terms": "(A' + B')(A + B + C)(A' + C' + D')(B + C + D)(B' + C' + D')(A + B + D)",
+      "SOP_cost": [
+        5,
+        18
+      ],
+      "POS_cost": [
+        6,
+        17
+      ],
+      "preferred": "SOP"
+    },
+    "1657": {
+      "SOP_terms": "A'BD' + AB'CD' + AB'C'D + A'B'CD + A'BC' + A'C'D'",
+      "POS_terms": "(A' + B')(A + B + C' + D)(A + B + C + D')(A' + C' + D')(B' + C' + D')(A' + C + D)",
+      "SOP_cost": [
+        6,
+        21
+      ],
+      "POS_cost": [
+        6,
+        19
+      ],
+      "preferred": "POS"
+    },
+    "1658": {
+      "SOP_terms": "A'B'D + A'BD' + AB'CD' + A'C'D + B'C'D",
+      "POS_terms": "(A' + B')(B + C + D)(A' + C' + D')(B' + C' + D')(A + B + D)",
+      "SOP_cost": [
+        5,
+        16
+      ],
+      "POS_cost": [
+        5,
+        14
+      ],
+      "preferred": "POS"
+    },
+    "1659": {
+      "SOP_terms": "A'C' + AB'CD' + A'B'D + B'C'D + A'BD'",
+      "POS_terms": "(A' + B')(A + B + C' + D)(A' + C' + D')(B' + C' + D')(A' + C + D)",
+      "SOP_cost": [
+        5,
+        15
+      ],
+      "POS_cost": [
+        5,
+        15
+      ],
+      "preferred": "POS"
+    },
+    "1662": {
+      "SOP_terms": "A'B'D + A'CD' + A'BC' + B'C'D + B'CD'",
+      "POS_terms": "(A' + B')(B + C + D)(A' + C' + D')(B' + C' + D')",
+      "SOP_cost": [
+        5,
+        15
+      ],
+      "POS_cost": [
+        4,
+        11
+      ],
+      "preferred": "POS"
+    },
+    "1680": {
+      "SOP_terms": "A'BC'D' + AB'CD' + AB'C'D + A'BCD",
+      "POS_terms": "(A' + B')(A + B)(B' + C' + D)(A + C + D')(B + C' + D')(B + C + D)",
+      "SOP_cost": [
+        4,
+        16
+      ],
+      "POS_cost": [
+        6,
+        16
+      ],
+      "preferred": "SOP"
+    },
+    "1681": {
+      "SOP_terms": "A'C'D' + AB'CD' + AB'C'D + A'BCD",
+      "POS_terms": "(A' + B')(A + B + D')(A + C' + D)(A + C + D')(B + C' + D')(A' + C + D)",
+      "SOP_cost": [
+        4,
+        15
+      ],
+      "POS_cost": [
+        6,
+        17
+      ],
+      "preferred": "SOP"
+    },
+    "1683": {
+      "SOP_terms": "B'C'D + A'C'D' + AB'CD' + A'BCD",
+      "POS_terms": "(A' + B')(A + C' + D)(B + C' + D')(B' + C + D')(A' + C + D)",
+      "SOP_cost": [
+        4,
+        14
+      ],
+      "POS_cost": [
+        5,
+        14
+      ],
+      "preferred": "SOP"
+    },
+    "1686": {
+      "SOP_terms": "B'CD' + B'C'D + A'BC'D' + A'BCD",
+      "POS_terms": "(A' + B')(B + C' + D')(B + C + D)(B' + C' + D)(B' + C + D')",
+      "SOP_cost": [
+        4,
+        14
+      ],
+      "POS_cost": [
+        5,
+        14
+      ],
+      "preferred": "SOP"
+    },
+    "1687": {
+      "SOP_terms": "A'B'C' + B'CD' + A'BCD + B'C'D + A'C'D'",
+      "POS_terms": "(A' + B')(B + C' + D')(B' + C' + D)(B' + C + D')(A' + C + D)",
+      "SOP_cost": [
+        5,
+        16
+      ],
+      "POS_cost": [
+        5,
+        14
+      ],
+      "preferred": "POS"
+    },
+    "1695": {
+      "SOP_terms": "A'B' + B'C'D + A'CD + B'CD' + A'C'D'",
+      "POS_terms": "(A' + B')(B' + C' + D)(A' + C' + D')(B' + C + D')(A' + C + D)",
+      "SOP_cost": [
+        5,
+        14
+      ],
+      "POS_cost": [
+        5,
+        14
+      ],
+      "preferred": "POS"
+    },
+    "1712": {
+      "SOP_terms": "A'BC' + AB'CD' + AB'C'D + A'BD",
+      "POS_terms": "(A' + B')(A + B)(B' + C' + D)(B + C' + D')(B + C + D)",
+      "SOP_cost": [
+        4,
+        14
+      ],
+      "POS_cost": [
+        5,
+        13
+      ],
+      "preferred": "SOP"
+    },
+    "1713": {
+      "SOP_terms": "A'BC' + AB'CD' + AB'C'D + A'C'D' + A'BD",
+      "POS_terms": "(A' + B')(A + B + D')(A + C' + D)(B + C' + D')(A' + C + D)",
+      "SOP_cost": [
+        5,
+        17
+      ],
+      "POS_cost": [
+        5,
+        14
+      ],
+      "preferred": "POS"
+    },
+    "1714": {
+      "SOP_terms": "A'BC' + B'C'D + AB'CD' + A'BD",
+      "POS_terms": "(A' + B')(A + C' + D)(B + C' + D')(B + C + D)",
+      "SOP_cost": [
+        4,
+        13
+      ],
+      "POS_cost": [
+        4,
+        11
+      ],
+      "preferred": "POS"
+    },
+    "1715": {
+      "SOP_terms": "A'C' + AB'CD' + B'C'D + A'BD",
+      "POS_terms": "(A' + B')(A + C' + D)(B + C' + D')(A' + C + D)",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        4,
+        11
+      ],
+      "preferred": "POS"
+    },
+    "1716": {
+      "SOP_terms": "A'BC' + B'CD' + AB'C'D + A'BD",
+      "POS_terms": "(A' + B')(A + B + D')(B + C + D)(B' + C' + D)(B + C' + D')",
+      "SOP_cost": [
+        4,
+        13
+      ],
+      "POS_cost": [
+        5,
+        14
+      ],
+      "preferred": "SOP"
+    },
+    "1717": {
+      "SOP_terms": "A'B'D' + A'BC' + AB'C'D + B'CD' + A'BD",
+      "POS_terms": "(A' + B')(A + B + D')(B' + C' + D)(B + C' + D')(A' + C + D)",
+      "SOP_cost": [
+        5,
+        16
+      ],
+      "POS_cost": [
+        5,
+        14
+      ],
+      "preferred": "POS"
+    },
+    "1718": {
+      "SOP_terms": "A'C'D + B'CD' + B'C'D + A'BC' + A'BD",
+      "POS_terms": "(A' + B')(B + C' + D')(B + C + D)(B' + C' + D)",
+      "SOP_cost": [
+        5,
+        15
+      ],
+      "POS_cost": [
+        4,
+        11
+      ],
+      "preferred": "POS"
+    },
+    "1719": {
+      "SOP_terms": "A'C' + B'CD' + B'C'D + A'BD",
+      "POS_terms": "(A' + B')(B + C' + D')(B' + C' + D)(A' + C + D)",
+      "SOP_cost": [
+        4,
+        11
+      ],
+      "POS_cost": [
+        4,
+        11
+      ],
+      "preferred": "POS"
+    },
+    "1721": {
+      "SOP_terms": "A'CD + A'BC' + AB'CD' + AB'C'D + A'C'D'",
+      "POS_terms": "(A' + B')(A + C' + D)(A + B + C + D')(A' + C' + D')(A' + C + D)",
+      "SOP_cost": [
+        5,
+        17
+      ],
+      "POS_cost": [
+        5,
+        15
+      ],
+      "preferred": "POS"
+    },
+    "1725": {
+      "SOP_terms": "A'B'D' + A'CD + A'BC' + AB'C'D + B'CD'",
+      "POS_terms": "(A' + B')(A + B + C + D')(B' + C' + D)(A' + C' + D')(A' + C + D)",
+      "SOP_cost": [
+        5,
+        16
+      ],
+      "POS_cost": [
+        5,
+        15
+      ],
+      "preferred": "POS"
+    },
+    "1776": {
+      "SOP_terms": "A'B + AB'CD' + AB'C'D",
+      "POS_terms": "(A' + B')(A + B)(B + C' + D')(B + C + D)",
+      "SOP_cost": [
+        3,
+        10
+      ],
+      "POS_cost": [
+        4,
+        10
+      ],
+      "preferred": "SOP"
+    },
+    "1777": {
+      "SOP_terms": "A'B + AB'CD' + AB'C'D + A'C'D'",
+      "POS_terms": "(A' + B')(A + B + D')(B + C' + D')(A + B + C')(A' + C + D)",
+      "SOP_cost": [
+        4,
+        13
+      ],
+      "POS_cost": [
+        5,
+        14
+      ],
+      "preferred": "SOP"
+    },
+    "1778": {
+      "SOP_terms": "A'B + B'C'D + AB'CD'",
+      "POS_terms": "(A' + B')(B + C' + D')(B + C + D)(A + B + D)",
+      "SOP_cost": [
+        3,
+        9
+      ],
+      "POS_cost": [
+        4,
+        11
+      ],
+      "preferred": "SOP"
+    },
+    "1782": {
+      "SOP_terms": "A'B + B'C'D + B'CD'",
+      "POS_terms": "(A' + B')(B + C' + D')(B + C + D)",
+      "SOP_cost": [
+        3,
+        8
+      ],
+      "POS_cost": [
+        3,
+        8
+      ],
+      "preferred": "POS"
+    },
+    "1785": {
+      "SOP_terms": "A'B + AB'CD' + AB'C'D + A'CD + A'C'D'",
+      "POS_terms": "(A' + B')(A + B + C' + D)(A + B + C + D')(A' + C' + D')(A' + C + D)",
+      "SOP_cost": [
+        5,
+        16
+      ],
+      "POS_cost": [
+        5,
+        16
+      ],
+      "preferred": "POS"
+    },
+    "1910": {
+      "SOP_terms": "A'C'D + A'CD' + AB'C' + AB'D' + A'BD'",
+      "POS_terms": "(A' + B')(C' + D')(A + B + C + D)",
+      "SOP_cost": [
+        5,
+        15
+      ],
+      "POS_cost": [
+        3,
+        8
+      ],
+      "preferred": "POS"
+    },
+    "1912": {
+      "SOP_terms": "A'BD' + AB'C' + A'B'CD + A'BC' + AB'D'",
+      "POS_terms": "(A' + B')(A + B + C)(A' + C' + D')(B' + C' + D')(A + B + D)",
+      "SOP_cost": [
+        5,
+        16
+      ],
+      "POS_cost": [
+        5,
+        14
+      ],
+      "preferred": "POS"
+    },
+    "1913": {
+      "SOP_terms": "B'C'D' + A'BD' + A'B'CD + AB'C' + AB'D' + A'BC'",
+      "POS_terms": "(A' + B')(A + B + C' + D)(A + B + C + D')(A' + C' + D')(B' + C' + D')",
+      "SOP_cost": [
+        6,
+        19
+      ],
+      "POS_cost": [
+        5,
+        16
+      ],
+      "preferred": "POS"
+    },
+    "1914": {
+      "SOP_terms": "A'B'D + AB'C' + A'BD' + A'C'D + AB'D'",
+      "POS_terms": "(A' + B')(A + B + D)(A' + C' + D')(B' + C' + D')",
+      "SOP_cost": [
+        5,
+        15
+      ],
+      "POS_cost": [
+        4,
+        11
+      ],
+      "preferred": "POS"
+    },
+    "1918": {
+      "SOP_terms": "A'B'D + A'CD' + AB'C' + A'BC' + AB'D'",
+      "POS_terms": "(A' + B')(A + B + C + D)(A' + C' + D')(B' + C' + D')",
+      "SOP_cost": [
+        5,
+        15
+      ],
+      "POS_cost": [
+        4,
+        12
+      ],
+      "preferred": "POS"
+    },
+    "1968": {
+      "SOP_terms": "AB'D' + A'BC' + AB'C' + A'BD",
+      "POS_terms": "(A' + B')(A + B)(B' + C' + D)(B + C' + D')",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        4,
+        10
+      ],
+      "preferred": "POS"
+    },
+    "1969": {
+      "SOP_terms": "B'C'D' + A'BC' + AB'C' + AB'D' + A'BD",
+      "POS_terms": "(A' + B')(A + B + D')(A + C' + D)(B + C' + D')",
+      "SOP_cost": [
+        5,
+        15
+      ],
+      "POS_cost": [
+        4,
+        11
+      ],
+      "preferred": "POS"
+    },
+    "1972": {
+      "SOP_terms": "AB'C' + B'CD' + A'BC' + A'BD",
+      "POS_terms": "(A' + B')(A + B + D')(B' + C' + D)(A + B + C)(B + C' + D')",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        5,
+        14
+      ],
+      "preferred": "SOP"
+    },
+    "1973": {
+      "SOP_terms": "B'D' + A'BC' + AB'C' + A'BD",
+      "POS_terms": "(A' + B')(A + B + D')(B' + C' + D)(B + C' + D')",
+      "SOP_cost": [
+        4,
+        11
+      ],
+      "POS_cost": [
+        4,
+        11
+      ],
+      "preferred": "POS"
+    },
+    "1974": {
+      "SOP_terms": "A'C'D + AB'C' + B'CD' + A'BC' + A'BD",
+      "POS_terms": "(A' + B')(B + C' + D')(A + B + C + D)(B' + C' + D)",
+      "SOP_cost": [
+        5,
+        15
+      ],
+      "POS_cost": [
+        4,
+        12
+      ],
+      "preferred": "POS"
+    },
+    "1980": {
+      "SOP_terms": "AB'C' + A'CD + B'CD' + A'BC'",
+      "POS_terms": "(A' + B')(A + B + C)(B' + C' + D)(A' + C' + D')",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        4,
+        11
+      ],
+      "preferred": "POS"
+    },
+    "2016": {
+      "SOP_terms": "AB'D' + A'BC + AB'C' + A'BD",
+      "POS_terms": "(A' + B')(A + B)(B' + C + D)(B + C' + D')",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        4,
+        10
+      ],
+      "preferred": "POS"
+    },
+    "2017": {
+      "SOP_terms": "AB'C' + A'BC + B'C'D' + AB'D' + A'BD",
+      "POS_terms": "(A' + B')(A + B + D')(B' + C + D)(B + C' + D')(A + B + C')",
+      "SOP_cost": [
+        5,
+        15
+      ],
+      "POS_cost": [
+        5,
+        14
+      ],
+      "preferred": "POS"
+    },
+    "2018": {
+      "SOP_terms": "A'C'D + AB'C' + A'BC + AB'D'",
+      "POS_terms": "(A' + B')(B + C' + D')(A + B + D)(B' + C + D)",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        4,
+        11
+      ],
+      "preferred": "POS"
+    },
+    "2019": {
+      "SOP_terms": "B'C' + A'BC + A'C'D + AB'D'",
+      "POS_terms": "(A' + B')(B + C' + D')(B' + C + D)(A + B + C')",
+      "SOP_cost": [
+        4,
+        11
+      ],
+      "POS_cost": [
+        4,
+        11
+      ],
+      "preferred": "POS"
+    },
+    "2022": {
+      "SOP_terms": "A'C'D + A'CD' + AB'C' + AB'D' + A'BC",
+      "POS_terms": "(A' + B')(B + C' + D')(A + C + D)",
+      "SOP_cost": [
+        5,
+        15
+      ],
+      "POS_cost": [
+        3,
+        8
+      ],
+      "preferred": "POS"
+    },
+    "2025": {
+      "SOP_terms": "AB'C' + A'CD + B'C'D' + AB'D' + A'BC + A'BD",
+      "POS_terms": "(A' + B')(A + B + C' + D)(A + B + C + D')(B' + C + D)(A' + C' + D')",
+      "SOP_cost": [
+        6,
+        18
+      ],
+      "POS_cost": [
+        5,
+        16
+      ],
+      "preferred": "POS"
+    },
+    "2032": {
+      "SOP_terms": "A'B + AB'C' + AB'D'",
+      "POS_terms": "(A' + B')(A + B)(B + C' + D')",
+      "SOP_cost": [
+        3,
+        8
+      ],
+      "POS_cost": [
+        3,
+        7
+      ],
+      "preferred": "POS"
+    },
+    "2033": {
+      "SOP_terms": "A'B + B'C'D' + AB'C' + AB'D'",
+      "POS_terms": "(A' + B')(A + B + D')(B + C' + D')(A + B + C')",
+      "SOP_cost": [
+        4,
+        11
+      ],
+      "POS_cost": [
+        4,
+        11
+      ],
+      "preferred": "POS"
+    },
+    "2034": {
+      "SOP_terms": "A'B + B'C'D + AB'D'",
+      "POS_terms": "(A' + B')(B + C' + D')(A + B + D)",
+      "SOP_cost": [
+        3,
+        8
+      ],
+      "POS_cost": [
+        3,
+        8
+      ],
+      "preferred": "POS"
+    },
+    "2040": {
+      "SOP_terms": "A'B + AB'C' + AB'D' + A'CD",
+      "POS_terms": "(A' + B')(A + B + C)(A' + C' + D')(A + B + D)",
+      "SOP_cost": [
+        4,
+        11
+      ],
+      "POS_cost": [
+        4,
+        11
+      ],
+      "preferred": "POS"
+    },
+    "4080": {
+      "SOP_terms": "A'B + AB'",
+      "POS_terms": "(A' + B')(A + B)",
+      "SOP_cost": [
+        2,
+        4
+      ],
+      "POS_cost": [
+        2,
+        4
+      ],
+      "preferred": "POS"
+    },
+    "5736": {
+      "SOP_terms": "A'BC'D + A'BCD' + AB'CD' + ABC'D' + AB'C'D + A'B'CD",
+      "POS_terms": "(A + B + C)(A' + B' + D')(A' + C' + D')(B + C + D)(B' + C' + D')(A + B + D)(A + C + D)(A' + B' + C')",
+      "SOP_cost": [
+        6,
+        24
+      ],
+      "POS_cost": [
+        8,
+        24
+      ],
+      "preferred": "SOP"
+    },
+    "5737": {
+      "SOP_terms": "A'B'C'D' + A'BC'D + A'B'CD + AB'CD' + ABC'D' + AB'C'D + A'BCD'",
+      "POS_terms": "(A' + B' + C')(A + B + C' + D)(A' + B + C + D)(A + B' + C + D)(A + B + C + D')(A' + B' + D')(A' + C' + D')(B' + C' + D')",
+      "SOP_cost": [
+        7,
+        28
+      ],
+      "POS_cost": [
+        8,
+        28
+      ],
+      "preferred": "SOP"
+    },
+    "5738": {
+      "SOP_terms": "A'B'D + AB'CD' + ABC'D' + A'BCD' + B'C'D + A'C'D",
+      "POS_terms": "(A' + B' + D')(B + C + D)(A' + C' + D')(B' + C' + D')(A + B + D)(A + C + D)(A' + B' + C')",
+      "SOP_cost": [
+        6,
+        21
+      ],
+      "POS_cost": [
+        7,
+        21
+      ],
+      "preferred": "SOP"
+    },
+    "5739": {
+      "SOP_terms": "A'B'D + A'BCD' + AB'CD' + ABC'D' + A'C'D + B'C'D + A'B'C'",
+      "POS_terms": "(A' + B' + C')(A + B + C' + D)(A' + B + C + D)(A + B' + C + D)(A' + B' + D')(A' + C' + D')(B' + C' + D')",
+      "SOP_cost": [
+        7,
+        24
+      ],
+      "POS_cost": [
+        7,
+        24
+      ],
+      "preferred": "POS"
+    },
+    "5742": {
+      "SOP_terms": "A'B'D + A'CD' + ABC'D' + A'C'D + B'C'D + B'CD'",
+      "POS_terms": "(A' + B' + D')(B + C + D)(A' + C' + D')(B' + C' + D')(A + C + D)(A' + B' + C')",
+      "SOP_cost": [
+        6,
+        19
+      ],
+      "POS_cost": [
+        6,
+        18
+      ],
+      "preferred": "POS"
+    },
+    "5758": {
+      "SOP_terms": "A'B'D + BC'D' + A'CD' + A'C'D + B'C'D + B'CD'",
+      "POS_terms": "(A' + B' + D')(B + C + D)(A' + C' + D')(B' + C' + D')(A' + B' + C')",
+      "SOP_cost": [
+        6,
+        18
+      ],
+      "POS_cost": [
+        5,
+        15
+      ],
+      "preferred": "POS"
+    },
+    "5761": {
+      "SOP_terms": "A'B'C'D' + AB'CD' + ABC'D' + AB'C'D + A'BCD",
+      "POS_terms": "(A + B + D')(B' + C' + D)(A' + B' + D')(A + B' + C)(A' + B + C + D)(A + C' + D)(B + C' + D')",
+      "SOP_cost": [
+        5,
+        20
+      ],
+      "POS_cost": [
+        7,
+        22
+      ],
+      "preferred": "SOP"
+    },
+    "5763": {
+      "SOP_terms": "B'C'D + AB'CD' + ABC'D' + A'BCD + A'B'C'",
+      "POS_terms": "(B' + C' + D)(B + C' + D')(A' + B' + D')(A + B' + C)(A' + B + C + D)(A + C' + D)",
+      "SOP_cost": [
+        5,
+        18
+      ],
+      "POS_cost": [
+        6,
+        19
+      ],
+      "preferred": "SOP"
+    },
+    "5766": {
+      "SOP_terms": "B'CD' + B'C'D + ABC'D' + A'BCD",
+      "POS_terms": "(B' + C' + D)(B + C' + D')(A' + B' + D')(B + C + D)(A + B' + C)",
+      "SOP_cost": [
+        4,
+        14
+      ],
+      "POS_cost": [
+        5,
+        15
+      ],
+      "preferred": "SOP"
+    },
+    "5767": {
+      "SOP_terms": "A'B'D' + B'C'D + ABC'D' + A'BCD + B'CD'",
+      "POS_terms": "(B' + C' + D)(B + C' + D')(A' + B' + D')(A + B' + C)(A' + B + C + D)",
+      "SOP_cost": [
+        5,
+        17
+      ],
+      "POS_cost": [
+        5,
+        16
+      ],
+      "preferred": "POS"
+    },
+    "5769": {
+      "SOP_terms": "A'CD + A'B'C'D' + AB'CD' + ABC'D' + AB'C'D",
+      "POS_terms": "(B' + C' + D)(A + C + D')(A' + B' + D')(A' + B + C + D)(A + C' + D)(A' + C' + D')(A + B' + D)",
+      "SOP_cost": [
+        5,
+        19
+      ],
+      "POS_cost": [
+        7,
+        22
+      ],
+      "preferred": "SOP"
+    },
+    "5771": {
+      "SOP_terms": "A'B'D + AB'CD' + ABC'D' + B'C'D + A'B'C' + A'CD",
+      "POS_terms": "(B' + C' + D)(A' + B' + D')(A + B' + C)(A' + B + C + D)(A + C' + D)(A' + C' + D')",
+      "SOP_cost": [
+        6,
+        20
+      ],
+      "POS_cost": [
+        6,
+        19
+      ],
+      "preferred": "POS"
+    },
+    "5774": {
+      "SOP_terms": "A'B'D + B'CD' + ABC'D' + B'C'D + A'CD",
+      "POS_terms": "(B' + C' + D)(A' + B' + D')(B + C + D)(A + B' + C)(A' + C' + D')",
+      "SOP_cost": [
+        5,
+        16
+      ],
+      "POS_cost": [
+        5,
+        15
+      ],
+      "preferred": "POS"
+    },
+    "5782": {
+      "SOP_terms": "B'CD' + B'C'D + BC'D' + A'BCD",
+      "POS_terms": "(B' + C' + D)(B + C' + D')(A' + B' + D')(B + C + D)(B' + C + D')",
+      "SOP_cost": [
+        4,
+        13
+      ],
+      "POS_cost": [
+        5,
+        15
+      ],
+      "preferred": "SOP"
+    },
+    "5783": {
+      "SOP_terms": "A'B'C' + BC'D' + B'CD' + A'BCD + B'C'D",
+      "POS_terms": "(B' + C' + D)(B + C' + D')(A' + B' + D')(A' + B + C + D)(B' + C + D')",
+      "SOP_cost": [
+        5,
+        16
+      ],
+      "POS_cost": [
+        5,
+        16
+      ],
+      "preferred": "POS"
+    },
+    "5784": {
+      "SOP_terms": "A'CD + BC'D' + AB'CD' + AB'C'D",
+      "POS_terms": "(B' + C' + D)(A + B + C)(A' + C' + D')(B' + C + D')(A + C' + D)(B + C + D)",
+      "SOP_cost": [
+        4,
+        14
+      ],
+      "POS_cost": [
+        6,
+        18
+      ],
+      "preferred": "SOP"
+    },
+    "5785": {
+      "SOP_terms": "A'CD + A'C'D' + AB'CD' + AB'C'D + BC'D'",
+      "POS_terms": "(B' + C' + D)(A + C + D')(A' + B' + D')(A' + B + C + D)(A + C' + D)(A' + C' + D')",
+      "SOP_cost": [
+        5,
+        17
+      ],
+      "POS_cost": [
+        6,
+        19
+      ],
+      "preferred": "SOP"
+    },
+    "5786": {
+      "SOP_terms": "A'B'D + BC'D' + AB'CD' + A'CD + B'C'D",
+      "POS_terms": "(B' + C' + D)(A' + C' + D')(B + C + D)(B' + C + D')(A + C' + D)",
+      "SOP_cost": [
+        5,
+        16
+      ],
+      "POS_cost": [
+        5,
+        15
+      ],
+      "preferred": "POS"
+    },
+    "5787": {
+      "SOP_terms": "A'B'D + BC'D' + AB'CD' + A'B'C' + B'C'D + A'CD",
+      "POS_terms": "(B' + C' + D)(A' + B' + D')(A' + B + C + D)(A + C' + D)(A' + C' + D')(B' + C + D')",
+      "SOP_cost": [
+        6,
+        19
+      ],
+      "POS_cost": [
+        6,
+        19
+      ],
+      "preferred": "POS"
+    },
+    "5790": {
+      "SOP_terms": "A'B'D + BC'D' + B'CD' + B'C'D + A'CD",
+      "POS_terms": "(B' + C' + D)(A' + B' + D')(B + C + D)(A' + C' + D')(B' + C + D')",
+      "SOP_cost": [
+        5,
+        15
+      ],
+      "POS_cost": [
+        5,
+        15
+      ],
+      "preferred": "POS"
+    },
+    "5801": {
+      "SOP_terms": "A'CD + A'B'C'D' + AB'CD' + ABC'D' + AB'C'D + A'BD",
+      "POS_terms": "(B' + C' + D)(A' + B' + D')(A' + B + C + D)(A + B + C + D')(A + C' + D)(A' + C' + D')(A + B' + D)",
+      "SOP_cost": [
+        6,
+        22
+      ],
+      "POS_cost": [
+        7,
+        23
+      ],
+      "preferred": "SOP"
+    },
+    "5804": {
+      "SOP_terms": "A'CD + B'CD' + ABC'D' + AB'C'D + A'BD",
+      "POS_terms": "(B' + C' + D)(A + B + C)(A' + B' + D')(A' + C' + D')(B + C + D)(A + B' + D)",
+      "SOP_cost": [
+        5,
+        17
+      ],
+      "POS_cost": [
+        6,
+        18
+      ],
+      "preferred": "SOP"
+    },
+    "5805": {
+      "SOP_terms": "A'B'D' + A'CD + ABC'D' + AB'C'D + B'CD' + A'BD",
+      "POS_terms": "(B' + C' + D)(A' + B' + D')(A' + B + C + D)(A + B + C + D')(A' + C' + D')(A + B' + D)",
+      "SOP_cost": [
+        6,
+        20
+      ],
+      "POS_cost": [
+        6,
+        20
+      ],
+      "preferred": "POS"
+    },
+    "5820": {
+      "SOP_terms": "BC'D' + A'CD + B'CD' + AB'C'D + A'BC'",
+      "POS_terms": "(B' + C' + D)(A + B + C)(A' + B' + D')(A' + C' + D')(B + C + D)",
+      "SOP_cost": [
+        5,
+        16
+      ],
+      "POS_cost": [
+        5,
+        15
+      ],
+      "preferred": "POS"
+    },
+    "5865": {
+      "SOP_terms": "A'CD + A'B'C'D' + AB'CD' + ABC'D' + AB'C'D + A'BC + A'BD",
+      "POS_terms": "(A' + B' + C')(A + B + C' + D)(A' + B + C + D)(A + B' + C + D)(A + B + C + D')(A' + B' + D')(A' + C' + D')",
+      "SOP_cost": [
+        7,
+        25
+      ],
+      "POS_cost": [
+        7,
+        25
+      ],
+      "preferred": "POS"
+    },
+    "6014": {
+      "SOP_terms": "A'B'D + BC'D' + A'CD' + AB'C' + A'C'D + AB'D'",
+      "POS_terms": "(A' + B' + C')(A + B + C + D)(A' + B' + D')(A' + C' + D')(B' + C' + D')",
+      "SOP_cost": [
+        6,
+        18
+      ],
+      "POS_cost": [
+        5,
+        16
+      ],
+      "preferred": "POS"
+    },
+    "6030": {
+      "SOP_terms": "A'B'D + AB'C' + B'CD' + A'CD + AC'D'",
+      "POS_terms": "(B' + C' + D)(A' + B' + D')(A + C + D)(A' + C' + D')(A + B' + C)",
+      "SOP_cost": [
+        5,
+        15
+      ],
+      "POS_cost": [
+        5,
+        15
+      ],
+      "preferred": "POS"
+    },
+    "6038": {
+      "SOP_terms": "BC'D' + B'C'D + AB'D' + A'BCD + B'CD'",
+      "POS_terms": "(B' + C' + D)(B + C' + D')(A' + B' + D')(A + B + C + D)(B' + C + D')",
+      "SOP_cost": [
+        5,
+        16
+      ],
+      "POS_cost": [
+        5,
+        16
+      ],
+      "preferred": "POS"
+    },
+    "6040": {
+      "SOP_terms": "BC'D' + AB'C' + A'CD + AB'D'",
+      "POS_terms": "(B' + C' + D)(A + B + C)(A' + C' + D')(B' + C + D')(A + C' + D)",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        5,
+        15
+      ],
+      "preferred": "SOP"
+    },
+    "6042": {
+      "SOP_terms": "A'B'D + BC'D' + AB'C' + AB'D' + A'CD",
+      "POS_terms": "(B' + C' + D)(A' + C' + D')(A + B + D)(B' + C + D')",
+      "SOP_cost": [
+        5,
+        15
+      ],
+      "POS_cost": [
+        4,
+        12
+      ],
+      "preferred": "POS"
+    },
+    "6060": {
+      "SOP_terms": "AB'C' + A'CD + B'CD' + AC'D' + A'BD",
+      "POS_terms": "(B' + C' + D)(A + B + C)(A' + B' + D')(A' + C' + D')(A + B' + D)",
+      "SOP_cost": [
+        5,
+        15
+      ],
+      "POS_cost": [
+        5,
+        15
+      ],
+      "preferred": "POS"
+    },
+    "6120": {
+      "SOP_terms": "AB'C' + A'BC + AB'D' + A'CD + AC'D' + A'BD",
+      "POS_terms": "(A + B + C)(A' + B' + D')(A' + C' + D')(A + B + D)(A + C + D)(A' + B' + C')",
+      "SOP_cost": [
+        6,
+        18
+      ],
+      "POS_cost": [
+        6,
+        18
+      ],
+      "preferred": "POS"
+    },
+    "6375": {
+      "SOP_terms": "A'C'D + A'CD' + ABC'D' + AB'CD + A'B'C' + A'BC",
+      "POS_terms": "(A' + B' + D')(A' + B + C)(A' + C' + D)(A + B' + C + D)(A + B + C' + D')",
+      "SOP_cost": [
+        6,
+        20
+      ],
+      "POS_cost": [
+        5,
+        17
+      ],
+      "preferred": "POS"
+    },
+    "6625": {
+      "SOP_terms": "A'BC + AC'D' + AB'CD + B'C'D' + A'BD",
+      "POS_terms": "(A + B + D')(A' + B' + D')(A' + C' + D)(A + B' + C + D)(B + C + D')(B + C' + D)",
+      "SOP_cost": [
+        5,
+        16
+      ],
+      "POS_cost": [
+        6,
+        19
+      ],
+      "preferred": "SOP"
+    },
+    "6627": {
+      "SOP_terms": "A'C'D + B'C'D' + A'BC + AB'CD + AC'D'",
+      "POS_terms": "(A' + B' + D')(A' + C' + D)(A + B + C')(A + B' + C + D)(A' + C + D')",
+      "SOP_cost": [
+        5,
+        16
+      ],
+      "POS_cost": [
+        5,
+        16
+      ],
+      "preferred": "POS"
+    },
+    "6630": {
+      "SOP_terms": "A'C'D + A'CD' + AC'D' + AB'CD + A'BC",
+      "POS_terms": "(A' + B' + D')(A' + C' + D)(A + C + D)(A + B + C' + D')(A' + C + D')",
+      "SOP_cost": [
+        5,
+        16
+      ],
+      "POS_cost": [
+        5,
+        16
+      ],
+      "preferred": "POS"
+    },
+    "7128": {
+      "SOP_terms": "BC'D' + B'CD + AB'C' + A'BC",
+      "POS_terms": "(A + B + C)(A' + B' + D')(A' + C' + D)(A + C + D')(A + B + D)",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        5,
+        15
+      ],
+      "preferred": "SOP"
+    },
+    "7140": {
+      "SOP_terms": "A'CD' + AB'C' + A'BD + AB'D + AC'D'",
+      "POS_terms": "(A + B + D')(A' + B' + D')(A' + C' + D)(A + C + D)",
+      "SOP_cost": [
+        5,
+        15
+      ],
+      "POS_cost": [
+        4,
+        12
+      ],
+      "preferred": "POS"
+    },
+    "7905": {
+      "SOP_terms": "A'BC + AB'C + A'B'C'D' + ABC'D' + AB'D + A'BD",
+      "POS_terms": "(A' + B' + C')(A + B + D')(A' + B + C + D)(A + B' + C + D)(A' + B' + D')(A + B + C')",
+      "SOP_cost": [
+        6,
+        20
+      ],
+      "POS_cost": [
+        6,
+        20
+      ],
+      "preferred": "POS"
+    },
+    "15555": {
+      "SOP_terms": "A'BC + ABC' + AB'C + A'B'C'",
+      "POS_terms": "(A' + B' + C')(A + B' + C)(A' + B + C)(A + B + C')",
+      "SOP_cost": [
+        4,
+        12
+      ],
+      "POS_cost": [
+        4,
+        12
+      ],
+      "preferred": "POS"
+    },
+    "27030": {
+      "SOP_terms": "A'B'CD' + AB'C'D' + A'BC'D' + ABC'D + ABCD' + AB'CD + A'B'C'D + A'BCD",
+      "POS_terms": "(A' + B' + C' + D')(A + B + C + D)(A + B' + C + D')(A + B + C' + D')(A' + B + C' + D)(A' + B' + C + D)(A' + B + C + D')(A + B' + C' + D)",
+      "SOP_cost": [
+        8,
+        32
+      ],
+      "POS_cost": [
+        8,
+        32
+      ],
+      "preferred": "POS"
+    }
+  }
+}
