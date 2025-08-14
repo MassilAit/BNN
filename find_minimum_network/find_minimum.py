@@ -359,14 +359,14 @@ if __name__ == "__main__":
         pass  # already set
 
     # === Configure here ===
-    N_INPUT        = 3
-    HP_CSV         = "3_binarized.csv"   # must have: canonical, best_lr, [best_bs], [best_clip], [model_type]
-    OUT_CSV        = "3_binarized_output.csv"
-    MODEL_TYPE_DFT = "binarized"                  # used if model_type not present in HP_CSV
+    N_INPUT        = 4
+    HP_CSV         = "4_continuous.csv"   # must have: canonical, best_lr, [best_bs], [best_clip], [model_type]
+    OUT_CSV        = "4_continuous_output_small.csv"
+    MODEL_TYPE_DFT = "continuous"                  # used if model_type not present in HP_CSV
     ARCH_MIN, ARCH_MAX = 2, 5
 
     # You can tune these to trade speed vs reliability
-    ATTEMPTS = 458
+    ATTEMPTS = 10
     EPOCHS   = 10_000
     DELTA    = 0.01
     PATIENCE = 100

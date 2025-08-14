@@ -6,7 +6,7 @@ columns reproduce the integer in `canonical`.
 • Prints 'OK' when everything matches, else lists mismatches.
 """
 
-CSV_FILE = "Result/4_binarized.csv"          # ← change if your file lives elsewhere
+CSV_FILE = "Result/4_continuous.csv"          # ← change if your file lives elsewhere
 # ---------------------------------------------------------------------
 from itertools import product
 import pandas as pd
